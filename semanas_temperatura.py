@@ -4,40 +4,40 @@
 temperaturas = [
     [   # Ciudad 1
         [   # Semana 1
-            {"day": "Lunes", "temp": 78},
-            {"day": "Martes", "temp": 80},
-            {"day": "Miércoles", "temp": 82},
-            {"day": "Jueves", "temp": 79},
-            {"day": "Viernes", "temp": 85},
-            {"day": "Sábado", "temp": 88},
-            {"day": "Domingo", "temp": 92}
+            {"day": "Lunes", "temp": 12},
+            {"day": "Martes", "temp": 15},
+            {"day": "Miércoles", "temp": 15},
+            {"day": "Jueves", "temp": 19},
+            {"day": "Viernes", "temp": 20},
+            {"day": "Sábado", "temp": 16},
+            {"day": "Domingo", "temp": 17}
         ],
         [   # Semana 2
-            {"day": "Lunes", "temp": 76},
-            {"day": "Martes", "temp": 79},
-            {"day": "Miércoles", "temp": 83},
-            {"day": "Jueves", "temp": 81},
-            {"day": "Viernes", "temp": 87},
-            {"day": "Sábado", "temp": 89},
-            {"day": "Domingo", "temp": 93}
+            {"day": "Lunes", "temp": 14},
+            {"day": "Martes", "temp": 12},
+            {"day": "Miércoles", "temp": 16},
+            {"day": "Jueves", "temp": 15},
+            {"day": "Viernes", "temp": 12},
+            {"day": "Sábado", "temp": 14},
+            {"day": "Domingo", "temp": 13}
         ],
         [   # Semana 3
-            {"day": "Lunes", "temp": 77},
-            {"day": "Martes", "temp": 81},
-            {"day": "Miércoles", "temp": 85},
-            {"day": "Jueves", "temp": 82},
-            {"day": "Viernes", "temp": 88},
-            {"day": "Sábado", "temp": 91},
-            {"day": "Domingo", "temp": 95}
+            {"day": "Lunes", "temp": 13},
+            {"day": "Martes", "temp": 11},
+            {"day": "Miércoles", "temp": 12},
+            {"day": "Jueves", "temp": 14},
+            {"day": "Viernes", "temp": 17},
+            {"day": "Sábado", "temp": 20},
+            {"day": "Domingo", "temp": 19}
         ],
         [   # Semana 4
-            {"day": "Lunes", "temp": 75},
-            {"day": "Martes", "temp": 78},
-            {"day": "Miércoles", "temp": 80},
-            {"day": "Jueves", "temp": 79},
-            {"day": "Viernes", "temp": 84},
-            {"day": "Sábado", "temp": 87},
-            {"day": "Domingo", "temp": 91}
+            {"day": "Lunes", "temp": 16},
+            {"day": "Martes", "temp": 17},
+            {"day": "Miércoles", "temp": 14},
+            {"day": "Jueves", "temp": 14},
+            {"day": "Viernes", "temp": 12},
+            {"day": "Sábado", "temp": 13},
+            {"day": "Domingo", "temp": 15}
         ]
     ],
     [   # Ciudad 2
