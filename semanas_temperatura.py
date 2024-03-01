@@ -80,40 +80,40 @@ temperaturas = [
     ],
     [   # Ciudad 3
         [   # Semana 1
-            {"day": "Lunes", "temp": 90},
-            {"day": "Martes", "temp": 92},
-            {"day": "Miércoles", "temp": 94},
-            {"day": "Jueves", "temp": 91},
-            {"day": "Viernes", "temp": 88},
-            {"day": "Sábado", "temp": 85},
-            {"day": "Domingo", "temp": 82}
+            {"day": "Lunes", "temp": 25},
+            {"day": "Martes", "temp": 28},
+            {"day": "Miércoles", "temp": 24},
+            {"day": "Jueves", "temp": 25},
+            {"day": "Viernes", "temp": 26},
+            {"day": "Sábado", "temp": 28},
+            {"day": "Domingo", "temp": 30}
         ],
         [   # Semana 2
-            {"day": "Lunes", "temp": 89},
-            {"day": "Martes", "temp": 91},
-            {"day": "Miércoles", "temp": 93},
-            {"day": "Jueves", "temp": 90},
-            {"day": "Viernes", "temp": 87},
-            {"day": "Sábado", "temp": 84},
-            {"day": "Domingo", "temp": 81}
+            {"day": "Lunes", "temp": 29},
+            {"day": "Martes", "temp": 31},
+            {"day": "Miércoles", "temp": 27},
+            {"day": "Jueves", "temp": 28},
+            {"day": "Viernes", "temp": 27},
+            {"day": "Sábado", "temp": 29},
+            {"day": "Domingo", "temp": 24}
         ],
         [   # Semana 3
-            {"day": "Lunes", "temp": 91},
-            {"day": "Martes", "temp": 93},
-            {"day": "Miércoles", "temp": 95},
-            {"day": "Jueves", "temp": 92},
-            {"day": "Viernes", "temp": 89},
-            {"day": "Sábado", "temp": 86},
-            {"day": "Domingo", "temp": 83}
+            {"day": "Lunes", "temp": 25},
+            {"day": "Martes", "temp": 29},
+            {"day": "Miércoles", "temp": 27},
+            {"day": "Jueves", "temp": 28},
+            {"day": "Viernes", "temp": 29},
+            {"day": "Sábado", "temp": 30},
+            {"day": "Domingo", "temp": 33}
         ],
         [   # Semana 4
-            {"day": "Lunes", "temp": 88},
-            {"day": "Martes", "temp": 90},
-            {"day": "Miércoles", "temp": 92},
-            {"day": "Jueves", "temp": 89},
-            {"day": "Viernes", "temp": 86},
-            {"day": "Sábado", "temp": 83},
-            {"day": "Domingo", "temp": 80}
+            {"day": "Lunes", "temp": 24},
+            {"day": "Martes", "temp": 26},
+            {"day": "Miércoles", "temp": 25},
+            {"day": "Jueves", "temp": 28},
+            {"day": "Viernes", "temp": 29},
+            {"day": "Sábado", "temp": 30},
+            {"day": "Domingo", "temp": 31}
         ]
     ]
 ]
