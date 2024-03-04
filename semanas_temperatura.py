@@ -120,10 +120,23 @@ temperaturas = [
 
 for ciudad in temperaturas:
     for semana in ciudad:
-        for dia in semana:
-            suma = 0
-            for dia in semana:
-                suma += dia["temp"]
-                promedio = suma / len(dia)
-                print(suma, promedio,)
-        
+        promediosemana = 0
+        promediociudad = 0
+        sumasemana = 0
+        sumaciudad = 0
+        c = 0
+        s = 0
+        for ciudad in temperaturas:
+            s = 0
+            c = c + 1
+            promediosemana = 0
+            sumasemana = 0
+            print("Promedio de la Ciudad " + str(c) + " es " + str(promediociudad))
+            for semana in ciudad:
+                s = s + 1
+                print("Promedio de la Semana " + str(s) + " es " + str(promediosemana))
+                for dia in semana:
+                    sumasemana += dia["temp"]
+                    promediosemana = sumasemana / len(dia)
+                    sumaciudad += dia["temp"]
+                    promediociudad = sumaciudad / len(dia)
