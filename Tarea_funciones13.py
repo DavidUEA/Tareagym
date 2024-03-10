@@ -1,15 +1,14 @@
 
 #Función  para calcular el promedio de temperaturas de una ciudad en un intervalo  de tiempo
 
-def cal_temp(datos, ciudad, semana_inicio, semana_final):
+def calcula_temp(datos, ciudad, semana_inicio, semana_final):
     num_items =0  # variable para almacenar el total de items Leidos
-    #sum_temp =0 # variatte que acumlarde la temperatura
-    for i in range(len(datos[ciudad])): #obtener numero de elementos en la ciudad
+    suma_temp=0 # variatte que acumlarde la temperatura
+    for i in range(len(datos[ciudad])):
         if i>=semana_inicio and i<=semana_final:
             for j in range(len(datos[ciudad][i])):
-                sum_temp=sum_temp+datos[ciudad][i][j]["temp"]
+                suma_temp=num_temp+datos[ciudad][i][j]['temp']
                 num_items=num_items+1
-
                 print(datos[ciudad][i][j])
 
     promedio=sum_temp/num_items
@@ -134,13 +133,10 @@ temperaturas = [
     ]
 ]
 
-ciudad= input("ingrese su ciudad:")
+ciudad = input("Ingrese ciudad")
 semana_inicio = input("ingrese semana inicio:")
 semana_final = input("ingrese semana final:")
 
 # Llamamos a la función para calcular las temperaturas promedio
-promediof= cal_temp=(temperaturas, ciudad, semana_inicio, semana_final)
-print(promediof)
-
-
-
+promedio_ca = calcula_temp(temperaturas, ciudad, semana_inicio, semana_final)
+print (promedio_ca)
