@@ -20,7 +20,7 @@ def calcula_temp(datos, ciudad, semana_inicio, semana_final):
             else:
                 return "No se encontraron datos para las semanas especificadas."
         else:
-            return "Las semanas especificadas están fuera de rango."
+             return "Las semanas especificadas están fuera de rango."
     else:
         return "La ciudad especificada está fuera de rango."
 
